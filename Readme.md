@@ -9,5 +9,3 @@ Thanks you PMASchool.
 
 Here is my website url. You can find these on my website also.
 https://pmaschool.blogspot.com
-
-Day 1 => 12/5/2022
