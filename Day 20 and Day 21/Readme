@@ -1,0 +1,12 @@
+This is a readme file so you can understand how this game code work
+
+Problem 1 :)
+
+In the day 20.1 we need to move the snake but when we do that then if we turn left the snake by 90deg then only first segment of snake will turn and the other will go straightly.
+To solve this problem we need to have some learning about snake game.
+In Urdu.
+Hum nay dekha k saanp ko jab hum mortay hai to wo sahi nai morta. Is liay hum nay is per ye likha. 
+Snap ko mornay k liay hamin sarray hisson ko morna hoga jo kay sirf os sorat main momkin hai kay  agar ham pehlay hissay ki position per dosray hissay ko lay ain aur dosray ki position per hum teesray ko lay ain. 
+Hum jab sanp ko bana rahay thay to hum nay setposition() funtion ka istemal kia tha jahan humnay x ki position ko change kia with the help of positions[] list kay.
+hum ab poistions[] list ko ulta kr dain gay aur sanp ko move krwain gay. is say ye hoga k teesra hissa, dosray ki jaga aur dosra hissa teesray ki jaga aa jay ga. aur yehi to hum chahtay hai.
+range(start = length of snake - 1, stop = 0, steps = -1)
