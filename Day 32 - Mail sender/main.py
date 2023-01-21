@@ -2,7 +2,7 @@ import smtplib
 import datetime as dt
 import random
 
-if dt.datetime.now().weekday() == 0:
+if dt.datetime.now().weekday() == 5:
     with open("quotes.txt") as quote:
         messages = quote.readlines()
         message = random.choice(messages)
@@ -15,7 +15,7 @@ if dt.datetime.now().weekday() == 0:
             connection.login(user=my_email, password=password)
             connection.sendmail(
                 from_addr=my_email,
-                to_addrs="thekkmart1@gmail.com",
+                to_addrs="mudassirameen105@gmail.com",
                 msg=f"Subject:Hello Monday\n\n{message}."
             )
 
